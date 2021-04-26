@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Podchaser/Logo/Vector</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="43" cy="43" r="43"></circle>
+    </defs>
+    <g id="Podchaser/Logo/Vector" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Outer-Pink" fill="#F70664" fill-rule="nonzero" cx="50" cy="50" r="50"></circle>
+        <g id="Group" transform="translate(7.000000, 7.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Outer-White" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <path d="M29,72.7830684 L29,87 L11,87 L11,44 C11,26.326888 25.326888,12 43,12 C60.673112,12 75,26.326888 75,44 C75,61.673112 60.673112,76 43,76 C37.9793664,76 33.2287839,74.8437736 29,72.7830684 Z"
+                  id="Combined-Shape" fill="#293B65" fill-rule="nonzero" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>
