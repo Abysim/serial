@@ -5,7 +5,7 @@ header("Access-Control-Allow-Origin: *");
 //header("Cache-Control: post-check=0, pre-check=0", false);
 //header("Pragma: no-cache");
 
-$origin = $_SERVER['HTTP_ORIGIN'];
+$origin = $_SERVER['HTTP_ORIGIN'] ?? trim($_SERVER['HTTP_REFERER'], '/');
 
 $font = intval($_GET['id'] ?? 0);
 $response = null;
