@@ -463,19 +463,16 @@
     }
 
     function getPlatform() {
-        const userAgent = window.navigator.userAgent,
-            platform = window.navigator.platform,
-            applePlatforms = ['Mac', 'iPhone', 'iPad', 'iPod'],
-            windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'];
+        const userAgent = window.navigator.userAgent;
         let userPlatform = null;
 
-        if (applePlatforms.indexOf(platform) !== -1) {
+        if (/Mac/.test(userAgent)) {
             userPlatform = 'apple';
-        } else if (windowsPlatforms.indexOf(platform) !== -1) {
+        } else if (/Win/.test(userAgent)) {
             userPlatform = 'pc';
         } else if (/Android/.test(userAgent)) {
             userPlatform = 'android';
-        } else if (/Linux/.test(platform)) {
+        } else if (/Linux/.test(userAgent)) {
             userPlatform = 'pc';
         }
 
