@@ -14,6 +14,8 @@ if (
     $font > 0
     && (
         $origin == "https://www.podcastics.com"
+        || $origin == "https://player.podcastics.com"
+        || $origin == "https://players.podcastics.com"
         || $origin == "https://serial.in.ua"
         || $origin == "https://www.serial.in.ua"
     ) && $_SERVER['HTTP_HOST'] == 'css.serial.in.ua'
