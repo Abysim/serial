@@ -31,7 +31,7 @@ if (
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
     $headers = [
-        'Accept: ' . $_SERVER['HTTP_ACCEPT'],
+        'Accept: application/font-woff2',
         'Accept-Encoding: identity',
         'Accept-Language: ' . $_SERVER['HTTP_ACCEPT_LANGUAGE'],
         'Host: rentafont.com',
