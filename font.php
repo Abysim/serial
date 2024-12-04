@@ -36,7 +36,7 @@ if (
         'Accept-Language: ' . $_SERVER['HTTP_ACCEPT_LANGUAGE'],
         'Host: rentafont.com',
         'Origin: ' . $origin,
-        'Referer: ' . $_SERVER['HTTP_REFERER'],
+        'Referer: ' . $_SERVER['HTTP_REFERER'] ?? $origin,
         'User-Agent: ' . $_SERVER['HTTP_USER_AGENT'],
     ];
 
